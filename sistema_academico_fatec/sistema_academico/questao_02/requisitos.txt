@@ -1,0 +1,21 @@
+============================================================
+SISTEMA DE GESTÃO ACADÊMICA - FATEC-PB
+Módulo: Cadastro de Cursos
+============================================================
+
+REQUISITOS FUNCIONAIS
+----------------------------------------
+RF01 - Cadastrar cursos com código, nome, carga horária e observações
+RF02 - Listar todos os cursos cadastrados
+RF03 - Alterar informações de um curso
+RF04 - Excluir curso com confirmação prévia (SIM/NÃO)
+RF05 - Associar disciplinas a um curso
+RF06 - Consultar curso por nome ou código
+
+REQUISITOS NÃO-FUNCIONAIS
+----------------------------------------
+RNF01 - Interface web responsiva via Streamlit
+RNF02 - Validação dos campos obrigatórios antes de salvar
+RNF03 - Mensagens de confirmação para operações de exclusão
+RNF04 - Acesso restrito a administradores
+RNF05 - Persistência em banco de dados SQLite

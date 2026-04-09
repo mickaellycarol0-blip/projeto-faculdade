@@ -1,0 +1,21 @@
+============================================================
+SISTEMA DE GESTÃO ACADÊMICA - FATEC-PB
+Módulo: Mensalidades, Histórico e Controle de Inadimplentes
+============================================================
+
+REQUISITOS FUNCIONAIS
+----------------------------------------
+RF01 - Lançar mensalidades pagas por aluno
+RF02 - Registrar data, valor, juros e desconto de cada mensalidade
+RF03 - Consultar histórico financeiro do aluno (débito/crédito)
+RF04 - Gerar relatório de alunos inadimplentes (diário/semanal/mensal)
+RF05 - Exportar relatório de inadimplentes
+RF06 - Controlar status financeiro do aluno (adimplente/inadimplente)
+
+REQUISITOS NÃO-FUNCIONAIS
+----------------------------------------
+RNF01 - Acesso restrito a supervisor e administrador
+RNF02 - Juros calculados automaticamente por atraso
+RNF03 - Relatórios filtráveis por período
+RNF04 - Banco de dados SQLite
+RNF05 - Interface com indicadores visuais de status financeiro

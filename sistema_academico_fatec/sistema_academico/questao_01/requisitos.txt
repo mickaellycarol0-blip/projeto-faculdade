@@ -1,0 +1,22 @@
+============================================================
+SISTEMA DE GESTÃO ACADÊMICA - FATEC-PB
+Módulo: Cadastro de Candidatos e Inscrições para o Vestibular
+============================================================
+
+REQUISITOS FUNCIONAIS
+----------------------------------------
+RF01 - Cadastrar candidatos com nome, CPF, e-mail, telefone e endereço
+RF02 - Consultar candidatos por nome, CPF ou número de inscrição
+RF03 - Alterar dados cadastrais de candidatos
+RF04 - Excluir candidatos do sistema
+RF05 - Registrar inscrições de candidatos para cursos do vestibular
+RF06 - Listar todos os candidatos inscritos
+RF07 - Emitir comprovante de inscrição
+
+REQUISITOS NÃO-FUNCIONAIS
+----------------------------------------
+RNF01 - Interface acessível via navegador web
+RNF02 - Tempo de resposta inferior a 3 segundos
+RNF03 - Dados protegidos com autenticação de usuário
+RNF04 - Sistema compatível com Windows, Linux e macOS
+RNF05 - Banco de dados SQLite para persistência local

@@ -1,0 +1,21 @@
+============================================================
+SISTEMA DE GESTÃO ACADÊMICA - FATEC-PB
+Módulo: Consulta de Candidatos por Nome, CPF ou Nº de Inscrição
+============================================================
+
+REQUISITOS FUNCIONAIS
+----------------------------------------
+RF01 - Consultar candidato por nome
+RF02 - Consultar candidato por CPF
+RF03 - Consultar candidato por número de inscrição
+RF04 - Exibir dados completos do candidato consultado
+RF05 - Exportar resultado da consulta
+RF06 - Listar todos os candidatos inscritos por curso
+
+REQUISITOS NÃO-FUNCIONAIS
+----------------------------------------
+RNF01 - Resultado exibido em menos de 2 segundos
+RNF02 - Acesso disponível para usuário e administrador
+RNF03 - Interface com campo de busca intuitivo
+RNF04 - Banco de dados SQLite
+RNF05 - Resultado apresentado em tabela formatada

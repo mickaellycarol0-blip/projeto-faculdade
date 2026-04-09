@@ -1,0 +1,22 @@
+============================================================
+SISTEMA DE GESTÃO ACADÊMICA - FATEC-PB
+Módulo: Cadastro de Turmas e Lançamento de Alunos
+============================================================
+
+REQUISITOS FUNCIONAIS
+----------------------------------------
+RF01 - Cadastrar turmas com nome, horário, período e data de abertura
+RF02 - Listar alunos matriculados disponíveis para lançamento
+RF03 - Lançar alunos em uma turma específica
+RF04 - Remover aluno de uma turma
+RF05 - Alterar dados da turma
+RF06 - Encerrar turma
+RF07 - Listar todas as turmas com seus respectivos alunos
+
+REQUISITOS NÃO-FUNCIONAIS
+----------------------------------------
+RNF01 - Acesso restrito ao administrador
+RNF02 - Interface com seleção múltipla de alunos
+RNF03 - Confirmação antes de encerrar turma
+RNF04 - Banco de dados SQLite
+RNF05 - Tempo de resposta inferior a 3 segundos

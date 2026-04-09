@@ -1,0 +1,21 @@
+============================================================
+SISTEMA DE GESTÃO ACADÊMICA - FATEC-PB
+Módulo: Autenticação de Usuários e Senhas
+============================================================
+
+REQUISITOS FUNCIONAIS
+----------------------------------------
+RF01 - Autenticar usuário com login e senha
+RF02 - Redirecionar para módulos de acordo com perfil (admin/usuário)
+RF03 - Bloquear acesso após tentativas inválidas consecutivas
+RF04 - Permitir alteração de senha pelo usuário
+RF05 - Encerrar sessão (logout)
+RF06 - Cadastrar novos usuários (admin)
+
+REQUISITOS NÃO-FUNCIONAIS
+----------------------------------------
+RNF01 - Senhas armazenadas com hash (SHA-256)
+RNF02 - Sessão expirada após 30 minutos de inatividade
+RNF03 - Tela de login simples e objetiva
+RNF04 - Banco de dados SQLite
+RNF05 - Controle de perfis: Administrador, Supervisor e Usuário

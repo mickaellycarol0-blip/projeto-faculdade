@@ -1,0 +1,21 @@
+============================================================
+SISTEMA DE GESTÃO ACADÊMICA - FATEC-PB
+Módulo: Lançamento de Notas e Boletim Escolar
+============================================================
+
+REQUISITOS FUNCIONAIS
+----------------------------------------
+RF01 - Lançar notas dos alunos por disciplina e turma
+RF02 - Alterar notas lançadas
+RF03 - Calcular média final do aluno por disciplina
+RF04 - Verificar aprovação ou reprovação do aluno
+RF05 - Consultar boletim escolar por matrícula ou nome
+RF06 - Exibir gráfico comparativo de desempenho da turma
+
+REQUISITOS NÃO-FUNCIONAIS
+----------------------------------------
+RNF01 - Somente professores/admin podem lançar notas
+RNF02 - Notas entre 0.0 e 10.0 com validação
+RNF03 - Média de aprovação: 5.0 (configurável)
+RNF04 - Banco de dados SQLite
+RNF05 - Boletim exibido em tabela com cores (aprovado/reprovado)

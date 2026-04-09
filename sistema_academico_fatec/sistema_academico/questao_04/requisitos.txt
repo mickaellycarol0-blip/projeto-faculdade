@@ -1,0 +1,21 @@
+============================================================
+SISTEMA DE GESTÃO ACADÊMICA - FATEC-PB
+Módulo: Cadastro de Professores
+============================================================
+
+REQUISITOS FUNCIONAIS
+----------------------------------------
+RF01 - Cadastrar professores com matrícula, nome, CPF, e-mail e telefone
+RF02 - Registrar especialidade do professor
+RF03 - Listar todos os professores
+RF04 - Alterar dados de um professor
+RF05 - Excluir professor do sistema
+RF06 - Associar professor a disciplinas e turmas
+
+REQUISITOS NÃO-FUNCIONAIS
+----------------------------------------
+RNF01 - Acesso restrito ao administrador
+RNF02 - CPF com validação de formato
+RNF03 - Persistência em banco SQLite
+RNF04 - Interface via navegador web (Streamlit)
+RNF05 - Mensagens claras de sucesso e erro
